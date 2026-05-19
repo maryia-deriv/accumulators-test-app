@@ -179,7 +179,7 @@ export function TradeControls({
       {/* Desktop-only: buy button */}
       {isDesktop && (
         <Button
-          className="w-full rounded-full bg-emerald-500 hover:bg-emerald-600 text-white"
+          className="w-full rounded-full bg-primary hover:bg-primary/90 text-primary-foreground"
           size="lg"
           disabled={!isConnected || !proposal || isBuying}
           onClick={onBuy}

@@ -262,7 +262,7 @@ export function AccumulatorView({
       {/* Mobile-only: buy button + footer */}
       <div className="lg:hidden shrink-0 border-t border-border bg-background px-3 pt-2 pb-[env(safe-area-inset-bottom)]">
         <Button
-          className="w-full h-auto py-2 rounded-full bg-emerald-500 hover:bg-emerald-600 text-white px-6"
+          className="w-full h-auto py-2 rounded-full bg-primary hover:bg-primary/90 text-primary-foreground px-6"
           disabled={!isConnected || !proposal || isBuying}
           onClick={buyContract}
         >
